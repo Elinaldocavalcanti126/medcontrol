@@ -15,9 +15,7 @@ import Usuarios      from './pages/Usuarios';
 
 // Estilos globais
 import './styles/global.css';
-import '@fontsource/inter/400.css';
-import '@fontsource/inter/600.css';
-import '@fontsource/dm-sans/700.css';
+
 
 export default function App() {
   return (
