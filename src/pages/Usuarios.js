@@ -53,12 +53,7 @@ export default function Usuarios() {
     await registrarLog(ativo ? 'ativar_usuario' : 'desativar_usuario', 'usuarios', id);
     carregar();
   };
-  // eslint-disable-next-line no-unused-vars
-  const badgeClass = (p) => ({
-    administrador: 'badge badge-admin',
-    farmaceutico:  'badge badge-farmaceutico',
-    estoque:       'badge badge-estoque',
-  }[p] ?? 'badge');
+  
 
   return (
     <div className="app-layout">
